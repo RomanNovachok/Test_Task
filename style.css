@@ -1,0 +1,62 @@
+body, html {
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    background-color: #202836;
+}
+
+.top-of-page{
+    width: 100%;
+    height: 5rem;
+    background-color:#0b1323;
+    position: absolute;
+}
+
+.search-input{ 
+    position: absolute;
+    top: 1.5rem;
+    margin-left: 2rem;
+    height: 2rem;
+    width: 25rem;
+}
+
+.top-button{
+    position: relative;
+    margin-top: 1.5rem;
+    height: 2.5rem;
+    background-color: #293546;
+    border-style: none;
+    border-radius: 17px;
+    font-size: 1.8rem;
+    font-family: revert;
+    color: silver;
+}
+
+.filter-button{
+    width: 6rem;
+    margin-left: 32rem;
+
+}
+
+.sorted-by-button{
+    margin-left: 2rem;
+    width: 9rem;
+}
+
+.add-new-auction{
+    margin-left: 2rem;
+    width: 16rem;
+
+}
+
+.account{
+    margin-top: 0.75rem;
+    position: absolute;
+    right: 2rem;
+    height: 3.5rem;
+    width: 3.5rem;
+    border-radius: 100%;
+}
