@@ -11,21 +11,20 @@ body, html {
 .top-of-page{
     width: 100%;
     height: 5rem;
+    line-height: 5.4rem;
     background-color:#0b1323;
     position: absolute;
 }
 
 .search-input{ 
-    position: absolute;
-    top: 1.5rem;
+    position: relative;
     margin-left: 2rem;
     height: 2rem;
-    width: 25rem;
+    width: 30rem;
+    bottom: 0.3rem;
 }
 
 .top-button{
-    position: relative;
-    margin-top: 1.5rem;
     height: 2.5rem;
     background-color: #293546;
     border-style: none;
@@ -37,17 +36,17 @@ body, html {
 
 .filter-button{
     width: 6rem;
-    margin-left: 32rem;
+    margin-left: 5rem;
 
 }
 
 .sorted-by-button{
-    margin-left: 2rem;
+    margin-left: 1.5rem;
     width: 9rem;
 }
 
 .add-new-auction{
-    margin-left: 2rem;
+    margin-left: 1.5rem;
     width: 16rem;
 
 }
